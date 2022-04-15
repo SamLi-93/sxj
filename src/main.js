@@ -12,6 +12,11 @@ import App from './App'
 import store from './store'
 import router from './router'
 
+import Vant from 'vant';
+Vue.use(Vant);
+import 'vant/lib/index.css';
+
+
 import '@/icons' // icon
 import '@/permission' // permission control
 
